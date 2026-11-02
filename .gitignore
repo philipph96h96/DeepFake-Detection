@@ -1,17 +1,14 @@
-# Python
+# Python-Umgebung
 .venv/
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
 
-# Daten und Modelle (zu groß, Lizenzen beachten)
-data/*
-!data/README.md
-detectors/*/weights/
+# Gesichtsbilder
+data/
+
+# Heruntergeladenes Forschungsprojekt
+detectors/CNNDetection-original/
+
+# Vortrainierte Modelle
 *.pth
 *.pt
-*.ckpt
-
-# Zwischenergebnisse
-results/tmp/
-.DS_Store
