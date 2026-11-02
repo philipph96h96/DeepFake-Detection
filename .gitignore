@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Daten und Modelle (zu groß, Lizenzen beachten)
+data/*
+!data/README.md
+detectors/*/weights/
+*.pth
+*.pt
+*.ckpt
+
+# Zwischenergebnisse
+results/tmp/
+.DS_Store

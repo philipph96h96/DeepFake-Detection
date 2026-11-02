@@ -1,0 +1,21 @@
+name: baseline
+seed: 42
+n_per_class: 100
+subset_dir: data/subset
+perturbed_dir: data/perturbed
+results_dir: results
+detectors:
+  - cnndetection
+  - univfd
+  - dire
+variants:
+  - jpeg_q90
+  - jpeg_q70
+  - jpeg_q50
+  - jpeg_q30
+  - scale_0.75
+  - scale_0.5
+  - scale_0.25
+  - crop_0.9
+  - crop_0.75
+  - crop_0.5
